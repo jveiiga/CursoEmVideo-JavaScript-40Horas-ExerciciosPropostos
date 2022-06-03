@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: rgba(0, 170, 255, 0.457);
+}
+
+h1 {
+    color: #fff;
+}
+
+main {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 6px;
+}
+
+#numero {
+    width: 150px;
+}
+
+#botao {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 150px;
+}
+
