@@ -1,3 +1,44 @@
-.container-input {
+body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgba(0, 157, 255, 0.403);
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+#number {
+     height: 30px;
+ }
+
+ #button {
+     height: 30px;
+     width: 100px;
+     margin-left: 10px;
+     
+ }
+
+ select {
+     width: 200px;
+     margin-bottom: 10px;
+ }
+
+
+
+ .finalizar {
+     display: flex;
+     flex-direction: column;
+ }
